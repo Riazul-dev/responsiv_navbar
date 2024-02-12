@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .menu{
+        @apply text-green-950 hover:text-slate-700 duration-300 font-bold cursor-pointer flex justify-center items-center h-full
+    }
+    .sub_menu{
+        @apply text-white hover:text-slate-700 hover:bg-blue-400 duration-300 font-bold cursor-pointer h-full flex justify-center items-center border rounded p-[2px] w-full
+    }
+    .mobile_menu{
+        @apply text-green-950 text-xl hover:text-slate-700 duration-300 font-bold cursor-pointer flex justify-center items-center
+    }
+    .mobile_sub_menu{
+        @apply text-green-950 hover:text-white duration-300 font-bold cursor-pointer flex justify-center items-center
+    }
+}
