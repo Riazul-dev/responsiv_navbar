@@ -13,7 +13,7 @@ const Navbar = () => {
           Services <MdOutlineKeyboardArrowDown />
         </span>
         <ul className="absolute right-0 top-12 hidden bg-blue-500 rounded-md w-36 group-hover:flex flex-col justify-center items-center gap-2 text-center p-2">
-          <span className="absolute -top-3 right-0 text-blue-500"><IoTriangle /></span>
+          <span className="absolute -top-3 right-10 text-blue-500"><IoTriangle /></span>
           <li className="sub_menu">Section-1</li>
           <li className="sub_menu">Section-2</li>
           <li className="sub_menu">Section-3</li>
